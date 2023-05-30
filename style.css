@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+    color: #000000;
+}
+div{
+    background-image: url("./imgs/3.png");
+    background-repeat: repeat ;
+    color: #000000;
+    background-attachment: fixed;
+    background-position:right;
+    background-size: contain;
+    padding: 50px 20px 15%;
+}
+.one,
+.two,
+.three,
+.four,
+.five{
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEEE;
+    font-weight: bold;
+}
+
+.one{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.two{
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.three{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.four{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.five{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
