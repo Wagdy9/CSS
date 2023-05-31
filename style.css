@@ -20,6 +20,7 @@ div{
     margin: 10px;
     background-color: #EEEE;
     font-weight: bold;
+    width:fit-content;
 }
 
 .one{
