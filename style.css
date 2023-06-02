@@ -9,7 +9,7 @@ div{
     background-attachment: fixed;
     background-position:right;
     background-size: contain;
-    padding: 50px 20px 15%;
+    padding: 50px 20px 15% 10%;
 }
 .one,
 .two,
@@ -25,23 +25,36 @@ div{
 .one{
     color: red;
     border-bottom: 2px solid red;
+    overflow: auto;
 }
 .two{
     color: green;
     border-bottom: 2px solid green;
+    overflow: hidden;
 }
 
 .three{
     color: blue;
     border-bottom: 2px solid blue;
+    overflow: visible;
 }
 
 .four{
     color: black;
     border-bottom: 2px solid black;
+    overflow: scroll;
 }
 
 .five{
     color: brown;
     border-bottom: 2px solid brown;
+}
+
+.mag{
+    color:magenta;
+    text-shadow: 1px 1px 1px violet;
+}
+.mag1{
+    color:rgba(255, 0, 255, 0);
+    text-shadow: 5px 5px 0px black;
 }
