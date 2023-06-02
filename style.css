@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h2{
     text-align: center;
     color: #000000;
@@ -45,4 +46,65 @@ div{
 .five{
     color: brown;
     border-bottom: 2px solid brown;
+=======
+h2{
+    text-align: center;
+    color: #000000;
+}
+div{
+    background-image: url("./imgs/3.png");
+    background-repeat: repeat ;
+    color: #000000;
+    background-attachment: fixed;
+    background-position:right;
+    background-size: contain;
+    padding: 50px 20px 15% 10%;
+}
+.one,
+.two,
+.three,
+.four,
+.five{
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEEE;
+    font-weight: bold;
+}
+
+.one{
+    color: red;
+    border-bottom: 2px solid red;
+    overflow: auto;
+}
+.two{
+    color: green;
+    border-bottom: 2px solid green;
+    overflow: hidden;
+}
+
+.three{
+    color: blue;
+    border-bottom: 2px solid blue;
+    overflow: visible;
+}
+
+.four{
+    color: black;
+    border-bottom: 2px solid black;
+    overflow: scroll;
+}
+
+.five{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+.mag{
+    color:magenta;
+    text-shadow: 1px 1px 1px violet;
+}
+.mag1{
+    color:rgba(255, 0, 255, 0);
+    text-shadow: 5px 5px 0px black;
+>>>>>>> d8e5a739ab537013b7bb71940bc9b944315b5d84
 }
