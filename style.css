@@ -1,113 +1,72 @@
-h2{
-    text-align: center;
-    color: #000000;
-}
-div{
-    background-image: url("./imgs/3.png");
-    background-repeat: repeat ;
-    color: #000000;
-    background-attachment: fixed;
-    background-position:right;
+ /*p{
+    background-attachment:fixed;
+    background-color: #7aff00;
+    background-repeat: fixed;
     background-size: contain;
-    padding: 50px 20px 15%;
+    padding:auto ;
+    width: 70%;
+    margin :auto;
+    border-width: 1px 2px 1px;
+    border-style: solid; 
+    border-color: red;
+    outline: 3px solid black;
+    display: inline-block;
+} */   
+.hidden{
+    visibility: hidden;
 }
+/* 
+three types of display 
+block respect height width padding margin
+inline does not respect height or width 
+respect padding and margin from left and right 
+inline-block respect height width padding margin 
+ */
+ /* 
+ display:none won't leave its space reserved for the element 
+ visibility:hidden would leave its space reserved for the element when it's invisible 
+ 
 .one,
 .two,
 .three,
-.four,
-.five{
-    padding: 10px;
-    margin: 10px;
-    background-color: #EEEE;
-    font-weight: bold;
-    width:fit-content;
-}
-
-.one{
-    color: red;
-    border-bottom: 2px solid red;
-}
-.two{
-    color: green;
-    border-bottom: 2px solid green;
-}
-
-.three{
-    color: blue;
-    border-bottom: 2px solid blue;
-}
-
 .four{
-    color: black;
-    border-bottom: 2px solid black;
-}
-
-.five{
-    color: brown;
-    border-bottom: 2px solid brown;
-=======
-h2{
-    text-align: center;
-    color: #000000;
-}
-div{
-    background-image: url("./imgs/3.png");
-    background-repeat: repeat ;
-    color: #000000;
-    background-attachment: fixed;
-    background-position:right;
-    background-size: contain;
-    padding: 50px 20px 15% 10%;
-}
-.one,
-.two,
-.three,
-.four,
-.five{
     padding: 10px;
-    margin: 10px;
+    margin bottom: 10px;
     background-color: #EEEE;
-    font-weight: bold;
-}
-
-.one{
-    color: red;
-    border-bottom: 2px solid red;
     overflow: auto;
 }
+.one{
+    color: red;
+    font-family: cursive;
+    border-bottom: 2px solid red;
+}
 .two{
     color: green;
+    font-family: times new roman;
     border-bottom: 2px solid green;
-    overflow: hidden;
 }
-
 .three{
-    color: blue;
+    ccolor: blue;
+    font-family: italic;
     border-bottom: 2px solid blue;
-    overflow: visible;
 }
-
 .four{
     color: black;
-    border-bottom: 2px solid black;
-    overflow: scroll;
+    border-bottom: 1px solid black;
+    font-family: Courier New;
+}*/
+
+div .special {
+    color:  green;
+    border-bottom: 2px solid red;
+    margin-right: 75%;
+}
+.name{
+    background-color: red;width: fit-content;
+    word-spacing: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    word-break: break-all;
 }
 
-.five{
-    color: brown;
-    border-bottom: 2px solid brown;
-}
-
-.mag{
-    color:magenta;
-    text-shadow: 1px 1px 1px violet;
-}
-/*text-shadow:horizontal vertical blur color*/
-.mag1{
-    color:rgba(255, 0, 255, 0);
-    text-shadow: 5px 5px 0px black;
-}
-.img{
-    width:20px;height: 20px;
-    vertical-align: auto;
-}
